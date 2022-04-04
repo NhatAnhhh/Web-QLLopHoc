@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74ef4f1eff0d42f787f3d5b2a0af8a39" Name="Diagram1">
+        <EntityTypeShape EntityType="QlLopHocModel.BaiTap" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.BaiTap_HocVien" Width="1.5" PointX="8.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.BaiTap_NhanXet" Width="1.5" PointX="8.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.BaiTapTepDinhKem" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.ChuDe" Width="1.5" PointX="6" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.GiangVien" Width="1.5" PointX="3" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.HocVien" Width="1.5" PointX="3" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.LopHoc" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.TaiKhoan_ThongBao" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.TaiLieu" Width="1.5" PointX="11.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.TaiLieu_NhanXet" Width="1.5" PointX="13.5" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.TaiLieuTepDinhKem" Width="1.5" PointX="16.5" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.ThongBao" Width="1.5" PointX="7.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.ThongBao_NhanXet" Width="1.5" PointX="9.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlLopHocModel.ThongBaoTepDinhKem" Width="1.5" PointX="10.75" PointY="15.625" IsExpanded="true" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTap_ChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTap_LopHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTap_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTap_HocVien_BaiTap" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTapTepDinhKem_BaiTap" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_NhanXet_BaiTap" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTap_HocVien_HocVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_NhanXet_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_BaiTapTepDinhKem_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ChuDe_LopHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ChuDe_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieu_ChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_GiangVien_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_HocVien_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_LopHoc_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieu_LopHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBao_LopHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiKhoan_ThongBao_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieu_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieu_NhanXet_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieuTepDinhKem_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBao_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBao_NhanXet_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBaoTepDinhKem_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieu_NhanXet_TaiLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_TaiLieuTepDinhKem_TaiLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBao_NhanXet_ThongBao" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.FK_ThongBaoTepDinhKem_ThongBao" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.LopHoc_GiangVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.LopHoc_HocVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.TaiLieu_HocVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QlLopHocModel.ThongBao_HocVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
